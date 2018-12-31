@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{BB759370-C1AB-405A-B2B9-CB2218FC6097}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LocalizingCustomText/Resources/values-ja/string.xml">
+    <Files>
+      <File FileName="LocalizingCustomText/MainActivity.cs" Line="47" Column="52" />
+      <File FileName="LocalizingCustomText/Resources/values-de/string.xml" Line="5" Column="13" />
+      <File FileName="LocalizingCustomText/Resources/values-en/string.xml" Line="5" Column="13" />
+      <File FileName="LocalizingCustomText/Resources/values-fr/string.xml" Line="6" Column="1" />
+      <File FileName="LocalizingCustomText/Resources/values-ja/string.xml" Line="5" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LocalizingCustomText" expanded="True">
+            <Node name="LocalizingCustomText" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="values-ja" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../../Documents/December/Projects/SfInstructor/SfInstructor/SfInstructor/SfInstructor.cs" line="183" offsetX="589" offsetY="2730" expression="child.Tag" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.LocalizingCustomText PreferredExecutionTarget="Android.125daaf9" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

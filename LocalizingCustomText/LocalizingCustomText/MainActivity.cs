@@ -16,11 +16,11 @@ namespace LocalizingCustomText
         {
             base.OnCreate(savedInstanceState);
 
-
             calendar = new SfCalendar(this);
             calendarInlineEvents = new CalendarEventCollection();
             calendar.ShowEventsInline = true;
 
+            // Set Locale to Calendar
             calendar.Locale = new Locale("fr");
 
             Calendar currentDate = Calendar.Instance;
@@ -38,8 +38,7 @@ namespace LocalizingCustomText
                 currentDate.Get(CalendarField.Month),
                 currentDate.Get(CalendarField.DayOfMonth), 12, 0, 0);
 
-
-
+            // Creating Events in SfCalendar
             CalendarInlineEvent calendarInlineEvent = new CalendarInlineEvent();
             calendarInlineEvent.StartTime = startTime;
             calendarInlineEvent.EndTime = endTime;
@@ -48,7 +47,7 @@ namespace LocalizingCustomText
             calendarInlineEvent.IsAllDay = true;
 
             calendarInlineEvents.Add(calendarInlineEvent);
-
+            //Add collection of events as source of SfCalendar
             calendar.DataSource = calendarInlineEvents;
 
             SetContentView(calendar);

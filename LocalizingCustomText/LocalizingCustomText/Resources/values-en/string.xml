@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="sfcalendar_inlineviewnoappointmenttext">No Events</string>
+  <string name="sfcalendar_inlineviewalldaytext">All Day</string>
+</resources>
